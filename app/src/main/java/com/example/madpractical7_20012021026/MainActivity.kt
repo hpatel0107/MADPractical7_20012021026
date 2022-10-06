@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val BtnCancelAlarm = findViewById<MaterialButton>(R.id.remove_alaram)
         val clockTC = findViewById<TextClock>(R.id.text_clock )
 
-        clockTC.format12Hour = "hh:mm:ss a MMM,dd yyyy "
+        clockTC.format12Hour = "hh:mm:ss a "
 
         CancleAlarmCardView.visibility = View.GONE
 
